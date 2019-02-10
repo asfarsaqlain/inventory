@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Login</title>
+</header>
+<body>
+<div style="width: 100%;">
+    <div class="container-login100">
+        <div style="width: 312px;">
+            <div class="login-form">
+                <div class="limiter">
+                        <div class="login100-form">
+                            <input autocomplete="off" placeholder="User Name" [(ngModel)]="userName"  autofocus class="loginInputField">
+
+                            <input autocomplete="off"  type="password"  placeholder="Password" [(ngModel)]="password"  class="loginInputField">
+
+                            <div class="login-button-section">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 loginButtonDivMargins">
+                                <button class="btn btn-primary col-lg-6 loginButtonMargin" (click)="loginClicked()">
+                                    Login
+                                </button>
+                            </div>
+                            <br>
+
+                            <br><img src="../../../assets/images/orion_logo.png">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

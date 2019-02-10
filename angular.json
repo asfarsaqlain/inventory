@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap/bootstrap.css",
+              "src/assets/bootstrap/bootstrap-theme.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true

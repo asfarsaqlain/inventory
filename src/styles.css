@@ -1,1 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  background: #ebeeef;
+  background:
+    url(../src/assets/images/footer.png) center bottom no-repeat,
+    url(../src/assets/images/bannerbg.png) center center no-repeat,
+    url(../src/assets/images/glob.png) center top no-repeat;
+}
+.login-form {
+  width: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.login100-form {
+  width: 236px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+@media (max-width: 576px) {
+  .login100-form {
+    /*padding: 43px 15px 57px 117px;*/
+  }
+}
+
+@media (max-width: 480px) {
+  .login100-form {
+    /*padding: 43px 15px 57px 15px;*/
+  }
+}
+.loginInputField{
+  margin:5px!important;
+  padding:5px!important;
+  border: 0.5px solid #337ab7!important;
+  font-size: 17px!important;
+  width: 100%;
+}
+.login-button-section {
+  width: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left:5px;
+  padding-right:0px;
+  padding-left:0px;
+}
+.forgotPassLabel{
+  padding-right:0!important;
+  padding-left:0!important;
+  padding-top:12px!important;
+  text-decoration: none!important;
+}
+.loginButtonDivMargins{
+  padding-right:0!important;
+  margin-left:-3px!important;
+}
+
+.loginButtonMargin{
+  margin:5px!important;
+  margin-left: -10px!important;
+  border-radius:0px!important;
+  width: 95% !important;
+}
+.mainmenu
+{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  left: 22px;
+  top: 6px;
+  text-align: center;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  -ms-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
